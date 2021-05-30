@@ -1,0 +1,86 @@
+
+body{
+    margin:0px;
+    text-align: left;
+    background-color:rgb(160, 231, 231) ;
+}
+h1{
+    color:rgb(163, 108, 41);
+    text-align:center;
+    font-family: Cambria;
+}
+.im{
+    text-align: center;
+    border-color: rgb(241, 25, 140);
+    border-width: 4;
+    border:solid;
+    padding: 5px;
+}
+span{
+    padding-right: 30px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid brown;
+    justify-content: space-around;
+}
+.item{
+    display:flexbox;
+    border-radius: 20px;
+    background-color: burlywood;
+    width: 320px;
+    font-family: fantasy;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    
+}
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif ;
+    font-weight:400;
+    background-color: rgb(241, 82, 241);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    padding: 20px;
+    font-family: Gill Sans MT ;
+    font-size: 20px;
+     background-color: rgb(196, 171, 60);
+}
+hr{
+    background-color: blueviolet;
+}
+h2{
+    font-size: 30px;
+}
+a :link{
+  color:white;
+}
+a :visited{
+    color:white;
+}
+.item:hover{
+    transform: scale(1.2);
+    opacity:1;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.item:hover p{
+    
+    opacity:1;
+}
